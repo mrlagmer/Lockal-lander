@@ -20,7 +20,7 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <section class="section is-medium">{children}</section>
+        <div>{children}</div>
       </>
     )}
   />

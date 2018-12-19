@@ -12,6 +12,7 @@ const IndexPage = () => (
         display: 'flex',
         flexDirection: 'column',
         padding: '20px',
+        margin: '20px',
       }}
     >
       <h1
@@ -39,7 +40,7 @@ const IndexPage = () => (
       >
         We're getting local guides together with anyone who wants to find a new
         experience. Whether you're traveling overseas or simply looking for
-        something to dp find out what's happening through lokal.
+        something to do find out what's happening through lockal.
       </p>
       <form
         style={{
@@ -49,7 +50,7 @@ const IndexPage = () => (
         <div class="field">
           <label class="label">I am a</label>
           <div class="control">
-            <div class="select">
+            <div class="select is-medium">
               <select>
                 <option>Traveler</option>
                 <option>Expert</option>
@@ -60,7 +61,14 @@ const IndexPage = () => (
         <div class="field">
           <label class="label">Name</label>
           <div class="control">
-            <input class="input" type="text" placeholder="Text input" />
+            <input
+              class="input is-medium"
+              type="text"
+              placeholder="Enter Name"
+              style={{
+                width: '60%',
+              }}
+            />
           </div>
         </div>
 
@@ -68,17 +76,19 @@ const IndexPage = () => (
           <label class="label">Email</label>
           <div class="control">
             <input
-              class="input"
+              class="input is-medium"
               type="email"
-              placeholder="Email input"
-              value=""
+              placeholder="Email Address"
+              style={{
+                width: '60%',
+              }}
             />
           </div>
         </div>
 
         <div class="field is-grouped">
           <div class="control">
-            <button class="button is-link">Submit</button>
+            <button class="button is-link">Find out more</button>
           </div>
         </div>
       </form>
