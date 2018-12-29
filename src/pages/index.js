@@ -13,19 +13,21 @@ const IndexPage = () => (
         flexDirection: 'column',
         padding: '20px',
         margin: '20px',
+        borderRadius: '5px',
       }}
     >
       <h1
         style={{
-          marginBottom: '50px',
+          marginBottom: '25px',
         }}
-        class="title is-1"
+        class="title is-1 header-name"
       >
         Lockal.ly
       </h1>
       <h2
         style={{
-          marginBottom: '50px',
+          marginBottom: '25px',
+          color: '#0e5d99',
         }}
         class="subtitle is-3"
       >
@@ -44,16 +46,16 @@ const IndexPage = () => (
       </p>
       <form
         style={{
-          marginTop: '50px',
+          marginTop: '25px',
         }}
       >
-        <div class="field">
-          <label class="label">I am a</label>
-          <div class="control">
+        <div class="field is-horizontal">
+          <label class="field-label is-medium has-text-left">I am</label>
+          <div class="control field-body">
             <div class="select is-medium">
               <select>
-                <option>Traveler</option>
-                <option>Expert</option>
+                <option>A Traveler</option>
+                <option>An Expert</option>
               </select>
             </div>
           </div>
@@ -66,7 +68,7 @@ const IndexPage = () => (
               type="text"
               placeholder="Enter Name"
               style={{
-                width: '60%',
+                width: '80%',
               }}
             />
           </div>
@@ -80,15 +82,22 @@ const IndexPage = () => (
               type="email"
               placeholder="Email Address"
               style={{
-                width: '60%',
+                width: '80%',
               }}
             />
           </div>
         </div>
 
-        <div class="field is-grouped">
+        <div class="field">
           <div class="control">
-            <button class="button is-link">Find out more</button>
+            <button
+              class="button is-link"
+              style={{
+                width: '80%',
+              }}
+            >
+              Find out more
+            </button>
           </div>
         </div>
       </form>

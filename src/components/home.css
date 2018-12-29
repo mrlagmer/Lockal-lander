@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+.header-name {
+  font-family: 'Lobster', cursive;
+}
+
 .flexed {
   margin-left: 0;
-  width: 50%;
-  background-color: rgba(250, 250, 246, 0.8);
+  width: 40%;
+  background-color: white;
 }
 
 @media only screen and (max-width: 580px) {
