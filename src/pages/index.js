@@ -55,13 +55,14 @@ const IndexPage = () => (
         action="/success"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
+        name="contact"
       >
         <input type="hidden" name="bot-field" />
         <div class="field is-horizontal">
           <label class="field-label is-medium has-text-left">I am</label>
           <div class="control field-body">
             <div class="select is-medium">
-              <select>
+              <select name="type">
                 <option>A Traveler</option>
                 <option>An Expert</option>
               </select>
@@ -72,6 +73,7 @@ const IndexPage = () => (
           <label class="label">Name</label>
           <div class="control">
             <input
+              name="name"
               class="input is-medium"
               type="text"
               placeholder="Enter Name"
@@ -86,6 +88,7 @@ const IndexPage = () => (
           <label class="label">Email</label>
           <div class="control">
             <input
+              name="email"
               class="input is-medium"
               type="email"
               placeholder="Email Address"
