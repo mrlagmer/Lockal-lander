@@ -5,7 +5,10 @@ import SEO from '../components/seo'
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={['gatsby', 'application', 'react']} />
+    <SEO
+      title="Lokal.ly | Imersrse yourself in the culture. "
+      keywords={['travel', 'experience', 'culture', 'local guides']}
+    />
     <div
       class="container flexed"
       style={{
@@ -48,7 +51,12 @@ const IndexPage = () => (
         style={{
           marginTop: '25px',
         }}
+        method="post"
+        action="/success"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
       >
+        <input type="hidden" name="bot-field" />
         <div class="field is-horizontal">
           <label class="field-label is-medium has-text-left">I am</label>
           <div class="control field-body">
