@@ -25,7 +25,7 @@ const IndexPage = () => (
         }}
         class="title is-1 header-name"
       >
-        Lockal.ly
+        Lokal.ly
       </h1>
       <h2
         style={{
@@ -45,7 +45,7 @@ const IndexPage = () => (
       >
         We're getting local guides together with anyone who wants to find a new
         experience. Whether you're traveling overseas or simply looking for
-        something to do find out what's happening through lockal.
+        something to do find out what's happening through lokal.
       </p>
       <form
         style={{
