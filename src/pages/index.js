@@ -34,7 +34,7 @@ const IndexPage = () => (
         }}
         class="subtitle is-3"
       >
-        Imersrse yourself in the culture. <br />
+        Immerse yourself in the culture. <br />
         Learn Something new. <br />
         Grow.
       </h2>
