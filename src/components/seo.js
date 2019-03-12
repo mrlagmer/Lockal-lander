@@ -23,6 +23,10 @@ function SEO({ description, lang, meta, keywords, title }) {
                 content: metaDescription,
               },
               {
+                name: 'google-site-verification',
+                content: 'BXT8IH_HH7OTA0_7Momnru80UREELVxPM7RuOD7n4fs',
+              },
+              {
                 property: 'og:title',
                 content: title,
               },
